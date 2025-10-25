@@ -1,0 +1,14 @@
+{
+  "name": "notes-app",
+  "version": "1.0.0",
+  "description": "A small notes application implemented with a minimal Node.js HTTP server (no Express). It serves a single-page frontend from `notes-app/public/` and exposes a tiny JSON file-backed API to create, list and delete notes persisted in `notes-app/data/notes.json`.",
+  "main": "functions/server.js",
+  "scripts": {
+    "start": "netlify dev",
+    "build": "netlify build",
+    "dev": "netlify dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

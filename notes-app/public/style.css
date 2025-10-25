@@ -1,0 +1,68 @@
+:root {
+  --bg: #eeeef0;
+  --card: #f7f6f6;
+  --accent: #2865a5;
+  --text: #1a1919;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: system-ui, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  margin: 0;
+  padding: 20px;
+  direction: rtl;
+}
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  background: var(--card);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 6px 18px rgba(10, 10, 20, 0.06);
+}
+h1 {
+  margin-top: 0;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+input,
+textarea {
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+}
+button {
+  background: var(--accent);
+  color: #fff;
+  border: 0;
+  padding: 10px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.note {
+  border: 1px solid #eee;
+  padding: 12px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.note .meta {
+  font-size: 12px;
+  color: #666;
+}
+.actions {
+  display: flex;
+  gap: 8px;
+}
+.actions button {
+  background: #d43a3a;
+}

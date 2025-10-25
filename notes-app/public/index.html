@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="fa">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Notes App</title>
+    <link rel="stylesheet" href="/public/style.css" />
+  </head>
+  <body>
+    <main class="container">
+      <h1>یادداشت‌ها</h1>
+
+      <form id="note-form">
+        <input id="note-title" type="text" placeholder="عنوان" required />
+        <textarea
+          id="note-body"
+          placeholder="متن یادداشت..."
+          rows="4"
+          required
+        ></textarea>
+        <button type="submit">ثبت یادداشت</button>
+      </form>
+
+      <hr />
+
+      <section id="notes-list"></section>
+    </main>
+
+    <script src="/public/app.js"></script>
+  </body>
+</html>
